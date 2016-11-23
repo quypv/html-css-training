@@ -1,17 +1,17 @@
 @font-face {
     font-family: roboto;
     src: url (font/Roboto-Bold.ttf);
-    font-size: 700;
+    font-weight: 700;
 }
 @font-face {
     font-family: roboto;
     src: url (font/Roboto-Regular.ttf);
-    font-size: 400;
+    font-weight: 400;
 }
 @font-face {
     font-family: roboto;
     src: url (font/Roboto-Light.ttf);
-    font-size: 300;
+    font-weight: 300;
 }
 #banner {
     background-image: 
@@ -19,7 +19,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
 }
 .logo img {
     margin-left: 90px;
@@ -57,7 +56,7 @@ ul {
 }
 .buttonstart {
     color: #fff;
-    border-radius: 15%;
+    border-radius: 10px;
     background-color: rgba(255,255,255,0.08);
     margin-top: 45px;
     padding-bottom: 5px;
@@ -68,6 +67,58 @@ ul {
     border-width: 3px;
     font-size: 26px;
 }
-.bannertext {
-    display: block;
+.bannertext h2 {
+    color: #fff;
+    font-family: roboto;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 205px;
+}
+.bannertext p {
+    color: #fff;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+.btn li {
+    
+    display: inline-block;
+    float: left;
+    font-family: roboto;
+    padding: 10px;
+}
+.option1 {
+    color: #fff;
+    background-color: #e76e66; 
+}
+.option2 {
+    background-color: #fff;
+    border-radius: 50%;
+}
+.option3 {
+    color: #fff;
+    background-color: #dda56c;
+    margin-right: -10px;
+}
+.section1 {
+    margin-top: 60px;
+    margin-bottom: 125px;
+}
+.tui img {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.shopping h3 {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 22px;
+}
+.shopping p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 14px;
+}
+.shopping img {
+    margin-right: 20px;
+    margin-top: 30px;
 }
