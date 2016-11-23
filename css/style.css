@@ -1,0 +1,73 @@
+@font-face {
+    font-family: roboto;
+    src: url (font/Roboto-Bold.ttf);
+    font-size: 700;
+}
+@font-face {
+    font-family: roboto;
+    src: url (font/Roboto-Regular.ttf);
+    font-size: 400;
+}
+@font-face {
+    font-family: roboto;
+    src: url (font/Roboto-Light.ttf);
+    font-size: 300;
+}
+#banner {
+    background-image: 
+        url(../img/bannerbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.logo img {
+    margin-left: 90px;
+    margin-top: 23px;
+}
+.menu li {
+    display: inline-block;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul {
+    display: block;
+    float: right;
+    margin-top: 29px;
+    font-size: 16px;
+}
+.login {
+    background-color: #e76e66;
+}
+.menu li:hover {
+    color: #999999;
+    cursor: none;
+}
+.bgtab {
+    background-image: 
+    url(../img/tab.png);
+    height: 455px;
+    width: 368px;
+    margin-top: 74px;
+    text-align: center;
+    padding-top: 193px;
+}
+.buttonstart {
+    color: #fff;
+    border-radius: 15%;
+    background-color: rgba(255,255,255,0.08);
+    margin-top: 45px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-color: rgba(255,255,255,0.50);
+    border-width: 3px;
+    font-size: 26px;
+}
+.bannertext {
+    display: block;
+}
