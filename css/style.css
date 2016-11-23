@@ -122,3 +122,43 @@ ul {
     margin-right: 20px;
     margin-top: 30px;
 }
+.section2 {
+    background-color: #f6f6f7;
+    text-align: center;
+}
+.services {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.services h3 {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 22px;
+}
+.services p {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 16px;
+}
+.section3 {
+    background-color: #dda56c;
+    font-family: roboto;
+}
+.lr {
+    color: #fff;
+    margin-top: 270px;
+    font-size: 50px;
+}
+.features {
+    color: #fff;
+    text-align: center;
+}
+.features h3 {
+    font-weight: 700;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.features p {
+    font-weight: 300;
+    font-size: 18px;
+}
