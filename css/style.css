@@ -43,7 +43,7 @@ ul {
 }
 .menu li:hover {
     color: #999999;
-    cursor: none;
+    cursor: pointer;
 }
 .bgtab {
     background-image: 
@@ -73,12 +73,14 @@ ul {
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 205px;
+    margin-left: 25px;
 }
 .bannertext p {
     color: #fff;
     font-family: roboto;
     font-size: 14px;
     font-weight: 300;
+    margin-left: 25px;
 }
 .btn li {
     
@@ -91,10 +93,14 @@ ul {
     color: #fff;
     background-color: #e76e66; 
     border: none;
+    font-size: 17.7px;
+    font-family: roboto;
     position: relative;
-    height: 30px;
+    height: 40px;
     line-height: 30px;
-    margin-right: 10px;
+    margin-top: 45px;
+    margin-right: 5px;
+    margin-left: 35px;
     padding: 2px 15px;
 }
 .option1 span {
@@ -102,18 +108,25 @@ ul {
     background-color: #fff;
     color: black;
     display: block;
+    font-size: 17.7px;
+    font-style: italic;
     margin: 0 auto;
     text-align: center;
-    top: 3px;
-    right: -20px;
+    top: 5px;
+    right: -19px;
     width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 20;
 }
 .option3 {
     color: #fff;
     background-color: #dda56c;
     border: none;
+    font-size: 17.7px;
+    font-family: roboto;
     position: relative;
-    height: 30px;
+    height: 40px;
     line-height: 30px;
     margin-right: 10px;
     padding: 2px 25px;
@@ -205,6 +218,9 @@ ul {
     background-color: #1b7e5a;
     color: #fff;
     text-align: center;
+    position: relative;
+    height: 72px;
+    width: 180px;
 }
 .box-price1 span {
     background-color: #166549;
@@ -212,11 +228,16 @@ ul {
     font-family: roboto;
     font-weight: 700;
     font-size: 24px;
-    padding: 5px;
-    margin-top: 20px;
+    padding: 9px;
+    margin-top: -10px;
+    margin-left: -25px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
 }
 .box-price p {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: roboto;
     font-weight: 700;
     font-size: 18px;
@@ -229,6 +250,8 @@ ul {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
+    height: 255px;
+    width: 180px;
 }
 .box1 button {
     background-color: #1b7e5a;
@@ -239,7 +262,8 @@ ul {
     padding: 10px;
 }
 .box1 p {
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: roboto;
     font-weight: 300;
     font-size: 14px;
@@ -248,11 +272,17 @@ ul {
     background-color: #e76e66;
     color: #fff;
     text-align: center;
+    position: relative;
+    height: 72px;
+    width: 180px;
 }
 .box-price3 {
     background-color: #579aa9;
     color: #fff;
     text-align: center;
+    position: relative;
+    height: 72px;
+    width: 180px;
 }
 .box-price2 span {
     background-color: #b95752;
@@ -260,8 +290,12 @@ ul {
     font-family: roboto;
     font-weight: 700;
     font-size: 24px;
-    padding: 5px;
-    margin-top: 20px;
+    padding: 9px;
+    margin-top: -10px;
+    margin-left: -25px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
 }
 .box-price3 span {
     background-color: #457b87;
@@ -269,8 +303,12 @@ ul {
     font-family: roboto;
     font-weight: 700;
     font-size: 24px;
-    padding: 5px;
-    margin-top: 20px;
+    padding: 9px;
+    margin-top: -10px;
+    margin-left: -25px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
 }
 .box2 {
     background-color: #f3aea8;
@@ -280,6 +318,8 @@ ul {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
+    height: 255px;
+    width: 180px;
 }
 .box2 button {
     background-color: #e76e66;
@@ -290,7 +330,8 @@ ul {
     padding: 10px;
 }
 .box2 p {
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: roboto;
     font-weight: 300;
     font-size: 14px;
@@ -303,6 +344,8 @@ ul {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
+    height: 255px;
+    width: 180px;
 }
 .box3 button {
     background-color: #457b87;
@@ -313,7 +356,8 @@ ul {
     padding: 10px;
 }
 .box3 p {
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: roboto;
     font-weight: 300;
     font-size: 14px;
@@ -352,6 +396,7 @@ input {
 textarea {
     width: 100%;
     padding-left: 10px;
+    resize: none;
 }
 ::-webkit-input-placeholder { font-style: italic;}
 ::-moz-placeholder { font-style: italic; }
@@ -381,4 +426,9 @@ textarea {
     padding: 20px;
     text-align: center;
     margin: 0 auto;
+}
+@media (max-width: 767) {
+    .section1 {
+        margin: 0 auto;
+    }
 }
