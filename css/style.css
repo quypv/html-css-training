@@ -262,11 +262,12 @@ ul {
     padding: 10px;
 }
 .box1 p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: -5px;
     font-family: roboto;
     font-weight: 300;
     font-size: 14px;
+    line-height: 30px;
 }
 .box-price2 {
     background-color: #e76e66;
@@ -330,11 +331,12 @@ ul {
     padding: 10px;
 }
 .box2 p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: -5px;
     font-family: roboto;
     font-weight: 300;
     font-size: 14px;
+    line-height: 30px;
 }
 .box3 {
     background-color: #9bc9d4;
@@ -356,11 +358,12 @@ ul {
     padding: 10px;
 }
 .box3 p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: -5px;
     font-family: roboto;
     font-weight: 300;
     font-size: 14px;
+    line-height: 30px;
 }
 /* section5 */
 .section5 {
