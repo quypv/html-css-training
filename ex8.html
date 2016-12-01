@@ -3,28 +3,19 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="lib/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/slick-1.6.0/slick.css">
+    <link rel="stylesheet" href="lib/slick-1.6.0/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <section id="section-home">
-        <header id="banner" class="container">
-            <img src="img/logo.png">
-            <ul class="menu">
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Features</li>
-                <li>Price</li>
-                <li>Contact</li>
-                <li class="login">Login</li>
-            </ul>
-        </header>
-    </section>
-
-    <header id="banner">
-        <div class="container">
-            <div class="logo clearfix">
+    <section id="section-home" class="section">
+        <header class="container">
+            <div class="logo">
                 <img src="img/logo.png">
+            </div>
+            <nav class="navigation">
                 <ul class="menu">
                     <li>Home</li>
                     <li>About</li>
@@ -32,183 +23,172 @@
                     <li>Features</li>
                     <li>Price</li>
                     <li>Contact</li>
-                    <li class="login">Login</li>
                 </ul>
+                <button class="btn-flat btn-coral btn-login">Login</button>
+            </nav>
+        </header>
+
+        <div class="container block-hero">
+            <div class="col-sm-5 hero-phone">
+                <img src="img/logo2.png">
+                <button type="button" class="btn-start">Start</button>
             </div>
-            <div class="row">
-                <div class="col-sm-5 bgtab">
-                    <img src="img/logo2.png">
-                    <div>
-                        <button type="button" class="buttonstart">Start</button>
-                    </div>
-                </div>
-                <div class="col-sm-7 bannertext">
-                    <h2>Gummi Bears Marzipan Caramels.</h2>
-                    <p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies
-                       lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert
-                       lollipop marzipan donut apple pie. Cookie cotton candy oat cake sweet roll
-                       topping apple pie marzipan.
-                    </p>
-                    <div class="row">
-                        <div class="">
-                            <button class="option1">PURCHASE NOW
-                            <span>or</span>
-                            </button>
-                            <button class="option3">LEARN MORE</button>   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section>
-        <div class="section1">
-            <div class="container">
-                <div class="row shopping">
-                    <div class="col-sm-7">
-                        <h3>ABOUT US</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. 
-                        </p>
-                        <img src="img/twitter-icon.png">
-                        <img src="img/facebook-icon.png">
-                        <img src="img/dribbble-icon.png">
-                        <img src="img/pintrest-icon.png">
-                    </div>
-                    <div class="col-sm-5 tui">
-                        <img src="img/shopping1.png">
-                    </div>    
+            <div class="col-sm-7 hero-text">
+                <h2>Gummi Bears Marzipan Caramels.</h2>
+                <p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies
+                    lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert
+                    lollipop marzipan donut apple pie. Cookie cotton candy oat cake sweet roll
+                    topping apple pie marzipan.
+                </p>    
+                <div class="actions">
+                    <button class="btn-flat btn-coral btn-purchase">PURCHASE NOW<em class="label-or">or</em></button>
+                    <button class="btn-flat btn-lightbrown">LEARN MORE</button>   
                 </div>
             </div>
         </div>
     </section>
-    <section class="section2">
+
+    <section id="section-about" class="section">
         <div class="container">
-        <div class="row services">
-            <div class="col-sm-4">
+            <div class="col-sm-5 col-sm-push-7 text-center">
+                <img src="img/shopping1.png" alt="ABOUT US" class="space-t-20">
+            </div>
+            <div class="col-sm-7 col-sm-pull-5">
+                <h3 class="section-title">ABOUT US</h3>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                <div class="social-links">
+                    <a href="//twitter.com"><img src="img/twitter-icon.png"></a>
+                    <a href="//facebook.com"><img src="img/facebook-icon.png"></a>
+                    <a href="//dribbble.com"><img src="img/dribbble-icon.png"></a>
+                    <a href="//pintrest.com"><img src="img/pintrest-icon.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3" class="section">
+        <div class="container">
+            <div class="col-sm-4 text-center">
                 <img src="img/Chat.png">
                 <h3>Title Goes Here</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat 
-                </p>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 text-center">
                 <img src="img/Offer.png">
                 <h3>Title Goes Here</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat 
-                </p>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 text-center">
                 <img src="img/User.png">
                 <h3>Title Goes Here</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat 
-                </p>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
             </div>
-        </div>  
         </div>
     </section>
-    <section class="section3">
+
+    <section id="section-features" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-1 lr">
-                    <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
-                </div>
-                <div class="col-sm-10 features">
-                    <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
-                    <img src="img/Website.png">
-                </div>
-                <div class="col-sm-1 lr">
-                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                </div>
-            </div>    
+            <h3 class="section-title">Lorem Ipsum Dolor Sit Amet</h3>
+            <p class="section-subtitle">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+
+            <div class="features-slider">
+                <div class="item"><img src="img/Website.png"></div>
+                <div class="item"><img src="img/Website.png"></div>
+                <div class="item"><img src="img/Website.png"></div>
+            </div>
         </div>
     </section>
-    <section class="section4">
+
+    <section id="section-price" class="section">
         <div class="container">
-            <div class="price">
-                <h3>SELECT THE PRICE THAT YOU LIKE</h3>
-                <p>
-                   Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper<br>
-                   suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
-            <div class="row box-price">
-                <div class="col-sm-3 col-sm-offset-2">
-                    <div class="box-price1">
+            <h3 class="section-title">SELECT THE PRICE THAT YOU LIKE</h3>
+            <p class="section-subtitle">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+            <div class="price-boxes">
+                <div class="box-price box-eco">
+                    <div class="box-title">
                         <p>ECONOMY</p>
-                        <span>5$</span>
+                        <span>5<sub>$</sub></span>
                     </div>
-                    <div class="box1">
-                        <p>
-                            2GB<br>
-                            200MB<br>
-                            UNLIMITED<br>
-                            1 Members<br>
-                            1 e-Mail accounts
-                        </p>
-                        <button>SIGN UP</button>
+                    <div class="box-content">
+                        <p>2GB</p>
+                        <p>200MB</p>
+                        <p>UNLIMITED</p>
+                        <p>1 Members</p>
+                        <p>1 e-Mail accounts</p>
+                        <button class="btn-flat btn-signup">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="box-price2">
-                        <p>ECONOMY</p>
-                        <span>5$</span>
+                <div class="box-price box-per">
+                    <div class="box-title">
+                        <p>PERSONAL</p>
+                        <span>15$</span>
                     </div>
-                    <div class="box2">
-                        <p>
-                            2GB<br>
-                            200MB<br>
-                            UNLIMITED<br>
-                            1 Members<br>
-                            1 e-Mail accounts
-                        </p>
-                        <button>SIGN UP</button>
+                    <div class="box-content">
+                        <p>5GB</p>
+                        <p>500MB</p>
+                        <p>UNLIMITED</p>
+                        <p>2 Members</p>
+                        <p>2 e-Mail accounts</p>
+                        <button class="btn-flat btn-signup">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="box-price3">
-                        <p>ECONOMY</p>
-                        <span>5$</span>
+                <div class="box-price box-bus">
+                    <div class="box-title">
+                        <p>BUSINESS</p>
+                        <span>20$</span>
                     </div>
-                    <div class="box3">
-                        <p>
-                            2GB<br>
-                            200MB<br>
-                            UNLIMITED<br>
-                            1 Members<br>
-                            1 e-Mail accounts
-                        </p>
-                        <button>SIGN UP</button>
+                    <div class="box-content">
+                        <p>10GB</p>
+                        <p>1GB</p>
+                        <p>UNLIMITED</p>
+                        <p>5 Members</p>
+                        <p>5 e-Mail accounts</p>
+                        <button class="btn-flat btn-signup">SIGN UP</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section5">
+
+    <section id="section-contact" class="section">
         <div class="container">
-            <h3>CONTACT US</h3>
+            <h3 class="section-title">CONTACT US</h3>
             <div class="row">
                 <div class="col-sm-6">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <p>Doori 7 Street, Block 15B No.1C Polda I Beringin Raya Bandar Lampung</p>
+                    <span><i class="fa fa-map-marker"></i>  Doori 7 Street, Block 15B No.1C Polda I Beringin Raya Bandar Lampung</span>
+                </div>
+                <div class="col-sm-6 contact-box">
+                    <span><i class="fa fa-phone-square"></i> (0271) 123 - 456 &nbsp; <i class="fa fa-envelope"></i> &nbsp; company-email@gmail.com</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <input type="text" placeholder="Your Name*">
                     <input type="text" placeholder="Your email*">
                     <input type="text" placeholder="Choose your Subject">
                 </div>
                 <div class="col-sm-6 contact-box">
-                    <i class="fa fa-phone-square" aria-hidden="true"></i>
-                    <p>(0271) 123 - 456</p>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <p>company-email@gmail.com</p>
+                    
                     <textarea rows="8" cols="50" placeholder="Your message"></textarea>
-                    <button type="submit">SUBMIT</button>
+                    <button class="btn-flat btn-coral" type="submit">SUBMIT</button>
                 </div>
             </div>    
         </div>
     </section>
-    <section class="section6">
+
+    <footer class="copyright">
         <div class="container">
             <span>© 2013 - 2014 Flat App. All right reserved.</span>
         </div>
-    </section>
+    </footer>
+
+    <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/slick-1.6.0/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.features-slider').slick({});
+        });
+    </script>
 </body>
 </html>
