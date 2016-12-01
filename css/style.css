@@ -1,21 +1,20 @@
 @font-face {
     font-family: roboto;
-    src: url (font/Roboto-Bold.ttf);
+    src: url (../font/Roboto-Bold.ttf);
     font-weight: 700;
 }
 @font-face {
     font-family: roboto;
-    src: url (font/Roboto-Regular.ttf);
+    src: url (../font/Roboto-Regular.ttf);
     font-weight: 400;
 }
 @font-face {
     font-family: roboto;
-    src: url (font/Roboto-Light.ttf);
+    src: url (../font/Roboto-Light.ttf);
     font-weight: 300;
 }
 #banner {
-    background-image: 
-        url(../img/bannerbg.jpg);
+    background-image: url(../img/bannerbg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
