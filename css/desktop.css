@@ -1,6 +1,63 @@
 @media (min-width: 768px ) {
+    /* Menu */
+    .slicknav_menu {
+        display: none;
+    }
+    .navigation {
+        float: right; 
+        margin-top: 10px;
+    }
+    .navigation .menu,
+    .navigation .btn-login {
+         display: inline-block;
+    }
+
+    /* Home */
+    .block-hero {
+        margin-top: 74px;
+    }
+    .hero-phone {
+        background-image: url(../img/tab.png);
+        background-size: cover;
+        height: 455px;
+        width: 368px;
+    }
+    .hero-phone img {
+        display: block;
+        margin: 54% auto 45px;
+    } 
+    .actions button {
+        display: inline-block; 
+        margin-right: 8px;
+    }
+    .btn-purchase .label-or {
+        right: -19px;
+        top: 5px;
+    }
+
+    /* Services */
+    #section-sevices img {
+        margin-bottom: 20px;
+    }
+
+    /* Features */
+    .features-slider .slick-prev:before, 
+    .features-slider .slick-next:before {
+        font-size: 30px;
+    }
+
+    /* Price */
     #section-price .section-subtitle {
         margin: 0 auto;
         width: 60%;
     }
+    .box-price {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .box-price:last-child { margin-right: 0 }
+
+    /* Contact */
+    form .btn-submit { float: right }
+    .contact-info span:first-child { margin-right: 20px }
 }

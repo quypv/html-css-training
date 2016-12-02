@@ -83,37 +83,18 @@ header {
 
 .menu li {
     display: inline-block;
-    color: #fff;
     padding: 5px 15px;
 }
-.menu li:hover {
+.menu li a {
+    color: #fff;
+}
+.menu li:hover a {
     color: #999999;
-    cursor: pointer;
 }
 
-.navigation {
-    float: right; 
-    margin-top: 10px;
-}
-.navigation .menu,
-.navigation .btn-login {
-    display: inline-block;    
-}
-
-.block-hero {
-    margin-top: 74px;
-}
 .hero-phone {
-    background-image: url(../img/tab.png);
-    background-size: cover;
-    height: 455px;
-    width: 368px;
     text-align: center;
 }
-.hero-phone img {
-    display: block;
-    margin: 54% auto 45px;
-} 
 .btn-start {
     background-color: #2d8867;
     border: 3px solid #9bcab8;
@@ -135,10 +116,6 @@ header {
     margin-top: 20%;
     margin-bottom: 20px;
 }
-.actions button {
-    display: inline-block; 
-    margin-right: 8px;
-}
 .btn-purchase {
     position: relative;
 }
@@ -152,8 +129,6 @@ header {
     height: 30px;
     line-height: 28px;
     position: absolute;
-    right: -19px;
-    top: 5px;
     width: 30px;
     text-indent: -2px;
 }
@@ -178,14 +153,10 @@ header {
 }
 
 /*-------------------------------------------
- *  Section 3
+ *  Services
  *-------------------------------------------*/
-#section-3 {
+#section-sevices {
     background-color: #f6f6f8; 
-}
-
-#section-3 img {
-    margin-bottom: 20px;
 }
 
 /*-------------------------------------------
@@ -210,10 +181,7 @@ header {
 }
 .features-slider .item img {
     margin: 0 auto;
-}
-.features-slider .slick-prev:before, 
-.features-slider .slick-next:before {
-    font-size: 30px;
+    max-width: 100%;
 }
 
 /*-------------------------------------------
@@ -233,13 +201,10 @@ header {
 }
 .box-price {
     color: #fff;
-    display: inline-block;
     font-weight: 300;
-    margin-right: 20px;
     text-align: center;
     width: 180px;
 }
-.box-price:last-child { margin-right: 0 }
 .box-price .box-title {
     font-size: 18px;
     position: relative;
@@ -314,12 +279,9 @@ textarea {
 ::-moz-placeholder { font-style: italic; }
 :-ms-input-placeholder { font-style: italic; }
 :-moz-placeholder { font-style: italic; }
-.contact-box button {
-    float: right;
-    font-weight: 700;
-}
 
 form .btn-submit {
+    font-weight: 700;
     margin-top: 10px;
 }
 
