@@ -1,0 +1,109 @@
+/* ======================================
+    Fonts
+=========================================*/
+@font-face {
+    font-family: "lobster";
+    src: url("../font/Lobster_1_4.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "bebasneue";
+    src: url("../font/BebasNeue.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "opensans";
+    src: url("../font/open-sans/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+
+/* ======================================
+    Common
+=========================================*/
+.white { color: #fff; }
+.green { color: #3cc395; }
+.emerald { color: #41c4b5; }
+.gray { color: #e1e1e1 }
+
+*:focus {
+    outline: none;
+}
+
+/* ======================================
+    Layout
+=========================================*/
+body {
+    font-family: "opensans";
+    font-size: 16px;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-family: "bebasneue";
+}
+h2 { 
+    font-size: 61px; 
+}
+h3 { 
+    font-size: 31px; 
+}
+h4 { 
+    font-size: 21px; 
+}
+
+/* ======================================
+    Header
+=========================================*/
+/* Top bar */
+.logo {
+    font-family: "lobster";
+    font-size: 49px;
+    font-weight: 700;
+    color: #41c4b5;
+}
+.top-search form {
+    border: 1px solid #e1e1e1;
+    position: relative;
+    height: 30px;
+    margin-top: 20px;
+}
+.top-search input {
+    border: none;
+    width: 90%;
+    height: 100%;
+    padding: 0 10px;
+}
+.top-search form i {
+    position: absolute;
+    right: 6px;
+    top: 1px;
+    color: #e1e1e1;
+    font-size: 22px;
+}
+.top-cart .amount {
+    color: #a1a1a1;
+    font-size: 33px;
+    font-family: "bebasneue";
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.top-bar .top-search {
+    display: block;
+    margin: 0 auto;
+    width: 434px;
+}
+.top-bar .logo {
+    float: left;
+}
+.top-bar .top-cart {
+    float: right;
+    margin-top: -35px;
+}
+
+/* Menu */
+nav {
+    background-color: #41c4b5;
+}
+
