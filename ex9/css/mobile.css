@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    /* Top bar */
+    .top-search form {
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    .top-bar .top-cart {
+        margin-top: -125px;
+    }
+}

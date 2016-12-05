@@ -31,6 +31,7 @@
 li {
     list-style: none;
 }
+img { max-width: 100%; }
 .bg-emerald {
     background-image: url("../images/backgrup.jpg");
 }
@@ -92,7 +93,6 @@ a {
     border: 1px solid #e1e1e1;
     position: relative;
     height: 30px;
-    margin-top: 20px;
 }
 .top-search input {
     border: none;
@@ -124,7 +124,6 @@ a {
 }
 .top-bar .top-cart {
     float: right;
-    margin-top: -35px;
 }
 
 /* Menu */
@@ -164,27 +163,64 @@ nav {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.box-slider button {
-   
+.slick-dots li {
+    margin: 0;
+}
+.slick-dots li button:before {
+    color: #fff;
+    opacity: 1;
+    font-size: 12px;
+}
+.slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 0.25;
 }
 
 /* Carousel */
 
 .carousel {
     color: #e1e1e1;
-    margin-top: 20px;
     font-family: "bebasneue";
     font-size: 27px;
 }
-.carousel-name {
-    display: inline-block;
-    width: 40%;
+.caro-item {
+    border-right: 1px solid #e1e1e1;
+    padding: 20px 20px 30px 20px;
 }
-.carousel-name p {
-    margin: -15px 0px;
+.caro-item .item-image,
+.caro-item .item-name {
+    display: inline-block;
+}
+.caro-item .item-image {
+    width: 60%;
+}
+.caro-item .item-name {
+    width: 35%;
+}
+.caro-item .item-name h3 {
+    font-size: 27px;
+    color: #b1b1b1;
 }
 .carousel button {
     margin-top: 15px;
+    padding: 2px 15px;
+}
+.slick-prev:before, 
+.slick-next:before {
+    color: gray;
+}
+.slick-next:before {
+    height: 100px;
+    width: 40px;
+    background-image: url("../images/next.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 50px;
+    background-position: -30px 0;
+    margin-left: 20px;
+    margin-top: -50px;
+    content: '';
 }
 
 /* featured */
@@ -208,6 +244,7 @@ nav {
     margin-top: 44px;
     border: 1px solid #e1e1e1;
     border-bottom-color: #3cc395;
+    position: relative;
 }
 .products-item button {
     display: inline-block;
@@ -223,6 +260,30 @@ nav {
 }
 .products-item span {
 
+}
+.products-item .item-image {
+    height: 150px;
+    text-align: center;
+    position: relative;
+}
+.products-item .item-image img {
+    max-height: 100%;
+    margin: 0;
+}
+.products-item .item-image > div {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.products-item:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 6px;
+    background-color: green;
+    position: absolute;
+    bottom: -5px;
 }
 
 /* ======================================

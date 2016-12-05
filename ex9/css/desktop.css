@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    /* Top bar */
+    .top-search form {
+        margin-top: 20px;
+    }
+    .top-bar .top-cart {
+        margin-top: -35px;
+    }
+}
