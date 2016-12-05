@@ -48,28 +48,30 @@
     Cách 2: Ý định dùng class nhỏ dùng chung thì đặt sát nghĩa. vd: "bg-emerald" tức là background ngọc lục bảo.
     Còn a đặt mỗi "background" thì chung quá.   
     -->
-    <section class="background">
+    <section class="bg-emerald">
         <div class="container">
             <!-- Phần này dùng thư viện slick để làm slider. Giống carousel -->
-            <div class="box-slider row">
-                <div class="col-sm-offset-1 col-sm-4 ">
-                    <img src="images/ao1.png">
-                </div>
-                <div class="about col-sm-7">
-                    <h2>Cowhide<br>Standard Crew</h2>
-                    <p>
-                       White coloured, short-sleeved, printed T-shirt for 
-                       men by Levi's. This crew-neck T-shirt is made of 
-                       organic cotton and comes in a regular fit. 
-                    </p>
-                    <button class="trans-button" type="buttom">Shop now</button>
+            <div class="fade">
+                <div class="box-slider row">
+                    <div class="col-sm-offset-1 col-sm-4 ">
+                        <img src="images/ao1.png">
+                    </div>
+                    <div class="about col-sm-7">
+                        <h2>Cowhide<br>Standard Crew</h2>
+                        <p>
+                           White coloured, short-sleeved, printed T-shirt for 
+                           men by Levi's. This crew-neck T-shirt is made of 
+                           organic cotton and comes in a regular fit. 
+                        </p>
+                        <button class="trans-button" type="buttom">Shop now</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Thẻ thừa. Nên gộp thành section với class = "container", 2 cái đứng riêng nhưng 1 cái ko tác dụng gì -->
-    <section>
+    <section class="section-hero">
         <div class="container">
             <div class="carousel" data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
                     <div>
@@ -96,7 +98,6 @@
                             <button type="button" class="flat-button">SHOES</button>
                         </div>
                     </div>
-
             </div>
         </div>
     </section>
@@ -122,56 +123,70 @@
 
     Anh cứ để 6 cái ô cạnh nhau, nó sẽ tự xuống dòng.
     -->
-    <section class="background">
-        <div class="featured container">
-            <p>FEATURED PRODUCTS</p>
-        </div>
-    </section>
     <section>
+        <div class="bg-emerald featured">
+            <div class="container">
+                <h3>FEATURED PRODUCTS</h3>
+            </div>
+        </div>
         <div class="container">
-            <div class="box-featured row">
+            <div class="box-featured">
                 <div class="products-item col-sm-4">
                     <img src="images/guaynu1.jpg">
                     <p>BRANDED SHOE</p>
-                    <p>$300</p>
+                    <span>$300</span>
                     <button type="button" class="flat-button">BUY NOW</button>
                 </div>
                 <div class="products-item col-sm-4">
                     <img src="images/ao3.jpg">
                     <p>BRANDED SHOE</p>
-                    <p>$300</p>
+                    <span>$300</span>
                     <button type="button" class="flat-button">BUY NOW</button>
                 </div>
                 <div class="products-item col-sm-4">
                     <img src="images/ao4.jpg">
                     <p>BRANDED SHOE</p>
-                    <p>$300</p>
+                    <span>$300</span>
                     <button type="button" class="flat-button">BUY NOW</button>
                 </div>
-            </div>
-            <div class="box-featured row">
                 <div class="products-item col-sm-4">
                     <img src="images/vi1.jpg">
                     <p>BRANDED SHOE</p>
-                    <p>$300</p>
+                    <span>$300</span>
                     <button type="button" class="flat-button">BUY NOW</button>
                 </div>
                 <div class="products-item col-sm-4">
                     <img src="images/tui1.jpg">
                     <p>EMS WOMEN  BAG</p>
-                    <p>$300</p>
+                    <span>$300</span>
                     <button type="button" class="flat-button">BUY NOW</button>
                 </div>
                 <div class="products-item col-sm-4">
                     <img src="images/quan1.jpg">
                     <p>BRANDED CARGOS </p>
-                    <p>$300</p>
+                    <span>$300</span>
                     <button type="button" class="flat-button">BUY NOW</button>
                 </div>
             </div>
-            
         </div>
     </section>
+
+    <footer class="bg-emerald">
+        <div class="container">
+            <div class="box-footer">
+                <h3>FEATURED SALE</h3>
+                <p>Alexis Hudson</p>
+                <p>American Apparel</p>
+                <p>Ben Sherman</p>
+                <p>Big Buddha</p>
+                <p>Chanel</p>
+                <p>Christian Audigier</p>
+                <p>Coach</p>
+                <p>Cole Haan</p>
+            </div>
+            
+        </div>
+    </footer>
 
     <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="lib/slick-1.6.0/slick.min.js"></script>
@@ -180,6 +195,13 @@
         $(document).ready(function(){
             $('.carousel').slick({});
             $('.menu').slicknav();
+            $('.fade').slick({
+              dots: true,
+              infinite: true,
+              speed: 500,
+              fade: true,
+              cssEase: 'linear'
+            });
         });
     </script>
 </body>
