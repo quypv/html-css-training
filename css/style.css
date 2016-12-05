@@ -36,8 +36,15 @@ li {
 }
 .trans-button {
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 5px;
+    padding: 5px 10px;
+}
+.flat-button {
+    background-color: #3cc395;
+    border: none;
+    color: #fff;
+    font-size: 19px;
 }
 /* ======================================
     Layout
@@ -132,9 +139,8 @@ nav {
     color: #fff;
     display: inline-block;
     border-right: 2px solid;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-right: 10px;
+    margin-left: 19px;
+    padding-right: 20px;
     line-height: 17px;
 }
 .menu li:last-child {
@@ -158,6 +164,12 @@ nav {
 
 /* Carousel */
 
+.carousel {
+    color: #e1e1e1;
+    margin-top: 20px;
+    font-family: "bebasneue";
+    font-size: 27px;
+}
 .carousel button{
-    display: block;
+    background-color: 
 }
