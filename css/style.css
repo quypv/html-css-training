@@ -170,6 +170,38 @@ nav {
     font-family: "bebasneue";
     font-size: 27px;
 }
-.carousel button{
-    background-color: 
+.carousel-name {
+    display: inline-block;
+    width: 40%;
+}
+.carousel-name p {
+    margin: -15px 0px;
+}
+.carousel button {
+    margin-top: 15px;
+}
+
+/* featured */
+
+.featured p {
+    color: #fff;
+    margin: 6px 25px;
+    font-family: "bebasneue";
+    font-size: 31px;
+}
+.box-featured {
+    color: #e1e1e1;
+    font-family: "bebasneue";
+    font-size: 27px;
+    text-align: center;
+    margin-top: 45px;
+}
+.box-featured button {
+    display: inline-block;
+}
+.products-item {
+    width: 29%;
+    margin-right: 45px;
+    border: 1px solid #e1e1e1;
+    border-bottom-color: #3cc395;
 }
