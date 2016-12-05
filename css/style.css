@@ -226,9 +226,6 @@ nav {
    footer
 =========================================*/
 
-.box-footer{
-    margin-left: 25px;
-}
 .box-footer h3 {
     color: #fff;
     font-size: 27px;
@@ -236,4 +233,7 @@ nav {
 .box-footer p {
     color: #fff;
     font-size: 15px;
+}
+.bg-footer {
+    background-color: #3cc3b5;
 }
