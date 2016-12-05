@@ -43,11 +43,6 @@
         </nav>
     </header>
 
-    <!-- Tên class chưa chuẩn, hơi vô nghĩa. 
-    Cách 1: Đặt theo tên section. Section ảnh to ở các site nó hay gọi là "hero", đặt class name: section-hero
-    Cách 2: Ý định dùng class nhỏ dùng chung thì đặt sát nghĩa. vd: "bg-emerald" tức là background ngọc lục bảo.
-    Còn a đặt mỗi "background" thì chung quá.   
-    -->
     <section class="bg-emerald">
         <div class="container">
             <!-- Phần này dùng thư viện slick để làm slider. Giống carousel -->
@@ -70,7 +65,9 @@
         </div>
     </section>
 
-    <!-- Thẻ thừa. Nên gộp thành section với class = "container", 2 cái đứng riêng nhưng 1 cái ko tác dụng gì -->
+    <!-- Sao lại có section hero ở đây ạ : )) Section này tên đâu phải thế. Gây nhầm lẫn anh nhé. 
+    Ko có tên thì bỏ trống
+    -->
     <section class="section-hero">
         <div class="container">
             <div class="carousel" data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
@@ -102,34 +99,15 @@
         </div>
     </section>
 
-    <!-- Sai kiến trúc của section.
-    Section Featured này bao gồm cả cái tiêu đề nền xanh và cả gallery bên dưới. tách ra 2 cái section là ko đúng, sai bản chất.
-    Thà dùng 2 thẻ div chứ ko nên dùng nhầm.
-    kiến trúc đúng:
-    section 
-      -- div "section-title"
-          -- h2 
-      -- div "container gallery"
-          -- div "col-4"
-          -- div "col-4"
-          -- div "col-4"
-          -- div "col-4"
-          -- div "col-4"
-          -- div "col-4"
-
-    Sở dĩ ko cần dùng row là do container cũng đã clearfix như row rồi.
-    Nếu có dùng row thì chỉ dùng 1 div row. Lý do thì a kéo màn hình của a xuống mobile là hiểu. Anh 
-    đang chia 2 hàng, mỗi hàng 3 ô. Nhưng khi kéo xuống màn hình tabet sẽ thấy lỗi.
-
-    Anh cứ để 6 cái ô cạnh nhau, nó sẽ tự xuống dòng.
-    -->
     <section>
+        <!--Thẻ thừa. Gộp 2 thẻ div thành 1. thừa thãi gây rối -->
         <div class="bg-emerald featured">
             <div class="container">
                 <h3>FEATURED PRODUCTS</h3>
             </div>
         </div>
         <div class="container">
+            <!-- div.box-featured thẻ thừa. ko thấy có tác dụng gì -->
             <div class="box-featured">
                 <div class="products-item col-sm-4">
                     <img src="images/guaynu1.jpg">
