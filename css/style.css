@@ -28,7 +28,17 @@
 *:focus {
     outline: none;
 }
-
+li {
+    list-style: none;
+}
+.background {
+    background-image: url("../images/backgrup.jpg");
+}
+.trans-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
 /* ======================================
     Layout
 =========================================*/
@@ -52,7 +62,9 @@ h3 {
 h4 { 
     font-size: 21px; 
 }
-
+a {
+    color: #fff; 
+}
 /* ======================================
     Header
 =========================================*/
@@ -103,7 +115,49 @@ h4 {
 }
 
 /* Menu */
+
 nav {
     background-color: #41c4b5;
+    color: #fff;
+    box-shadow: 0px 2px 5px #888888;
+}
+.menu {
+    font-family: "bebasneue";
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.menu li {
+    color: #fff;
+    display: inline-block;
+    border-right: 2px solid;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    line-height: 17px;
+}
+.menu li:last-child {
+    border: none;
 }
 
+/* ======================================
+    Home
+=========================================*/
+
+/* Slider */
+
+.box-slider {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box-slider button {
+   
+}
+
+/* Carousel */
+
+.carousel button{
+    display: block;
+}
