@@ -43,8 +43,14 @@
         </nav>
     </header>
 
+    <!-- Tên class chưa chuẩn, hơi vô nghĩa. 
+    Cách 1: Đặt theo tên section. Section ảnh to ở các site nó hay gọi là "hero", đặt class name: section-hero
+    Cách 2: Ý định dùng class nhỏ dùng chung thì đặt sát nghĩa. vd: "bg-emerald" tức là background ngọc lục bảo.
+    Còn a đặt mỗi "background" thì chung quá.   
+    -->
     <section class="background">
         <div class="container">
+            <!-- Phần này dùng thư viện slick để làm slider. Giống carousel -->
             <div class="box-slider row">
                 <div class="col-sm-offset-1 col-sm-4 ">
                     <img src="images/ao1.png">
@@ -62,6 +68,7 @@
         </div>
     </section>
 
+    <!-- Thẻ thừa. Nên gộp thành section với class = "container", 2 cái đứng riêng nhưng 1 cái ko tác dụng gì -->
     <section>
         <div class="container">
             <div class="carousel" data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
@@ -94,6 +101,27 @@
         </div>
     </section>
 
+    <!-- Sai kiến trúc của section.
+    Section Featured này bao gồm cả cái tiêu đề nền xanh và cả gallery bên dưới. tách ra 2 cái section là ko đúng, sai bản chất.
+    Thà dùng 2 thẻ div chứ ko nên dùng nhầm.
+    kiến trúc đúng:
+    section 
+      -- div "section-title"
+          -- h2 
+      -- div "container gallery"
+          -- div "col-4"
+          -- div "col-4"
+          -- div "col-4"
+          -- div "col-4"
+          -- div "col-4"
+          -- div "col-4"
+
+    Sở dĩ ko cần dùng row là do container cũng đã clearfix như row rồi.
+    Nếu có dùng row thì chỉ dùng 1 div row. Lý do thì a kéo màn hình của a xuống mobile là hiểu. Anh 
+    đang chia 2 hàng, mỗi hàng 3 ô. Nhưng khi kéo xuống màn hình tabet sẽ thấy lỗi.
+
+    Anh cứ để 6 cái ô cạnh nhau, nó sẽ tự xuống dòng.
+    -->
     <section class="background">
         <div class="featured container">
             <p>FEATURED PRODUCTS</p>
