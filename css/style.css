@@ -49,6 +49,9 @@ li {
 .section-hero {
     box-shadow: 0px 2px 5px #888888;
 }
+.text-center {
+    text-align: center;
+}
 /* ======================================
     Layout
 =========================================*/
@@ -226,14 +229,28 @@ nav {
    footer
 =========================================*/
 
+.box-footer{
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
 .box-footer h3 {
     color: #fff;
     font-size: 27px;
+    padding-left: 12px;
 }
 .box-footer p {
     color: #fff;
     font-size: 15px;
+    padding-left: 15px;
 }
 .bg-footer {
     background-color: #3cc3b5;
+}
+.text-center p {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.bg-Copyright {
+    background-color: #2da89b;
 }
