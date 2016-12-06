@@ -7,4 +7,35 @@
     .top-bar .top-cart {
         margin-top: -125px;
     }
+    .home-slider {
+        text-align: center;
+    }
+    .home-slider img {
+        margin: 0 auto;
+    }
+    .home-slider button {
+        width: 100%;
+    }
+    /* Menur */
+    .slicknav_menu {
+        display: block;
+        background-color: #41c4b5;
+    }
+    .slicknav_btn {
+        background-color: rgba(245, 242, 242, 0.28);
+    }
+    .menu {
+        display: none;
+    }
+    /* FEATURED PRODUCTS */
+    .products-item {
+        margin: 20px -37px 20px 113px;
+    }
+    .featured-gellary {
+        margin: 0;
+    }
+    /* Footer */
+    .footer-links {
+        padding-left: 70px;
+    }
 }

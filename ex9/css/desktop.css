@@ -6,4 +6,17 @@
     .top-bar .top-cart {
         margin-top: -35px;
     }
+    /* Menu */
+    .slicknav_menu {
+        display: none;
+    }
+    .featured-gellary {
+        margin-bottom: 44px;
+        margin-left: 56px;
+    }
+    .products-item {
+        margin-right: 40px;
+        margin-top: 44px;
+    }
 }
+

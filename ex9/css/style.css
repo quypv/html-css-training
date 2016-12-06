@@ -39,11 +39,12 @@ img { max-width: 100%; }
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid #fff;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 2px 25px;
 }
 .flat-button {
     background-color: #3cc395;
     border: none;
+    border-radius: 5px;
     color: #fff;
     font-size: 19px;
 }
@@ -88,6 +89,7 @@ a {
     font-size: 49px;
     font-weight: 700;
     color: #41c4b5;
+    margin-left: 20px;
 }
 .top-search form {
     border: 1px solid #e1e1e1;
@@ -124,6 +126,7 @@ a {
 }
 .top-bar .top-cart {
     float: right;
+    margin-right: 24px;
 }
 
 /* Menu */
@@ -175,6 +178,20 @@ nav {
     color: #fff;
     opacity: 0.25;
 }
+.about h2 {
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+.about p {
+    line-height: 27px;
+}
+.about button {
+    font-family: "bebasneue";
+    font-size: 27px; 
+}
+.about:hover button {
+    background-color: rgba(255, 255, 255, 0.4);
+}
 
 /* Carousel */
 
@@ -212,38 +229,47 @@ nav {
 .slick-next:before {
     height: 100px;
     width: 40px;
-    background-image: url("../images/next.png");
+    background-image: url("../images/next-R.png");
     background-repeat: no-repeat;
-    background-size: cover;
     display: block;
-    width: 50px;
-    background-position: -30px 0;
+    width: 100px;
+    background-position: 6px 4px;
     margin-left: 20px;
     margin-top: -50px;
     content: '';
+}
+.slick-prev:before {
+    height: 100px;
+    width: 40px;
+    background-image: url("../images/next-L.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    background-position: 6px 4px;
+    margin-left: -45px;
+    margin-top: -50px;
+    content: '';
+}
+.item-name button.flat-button:hover  {
+    background-color: rgba(60, 195, 149, 0.37);
 }
 
 /* featured */
 
 .featured h3 {
     color: #fff;
-    margin: 6px 25px;
+    margin: 6px 59px;
     font-size: 31px;
 }
-.box-featured {
+.featured-gellary {
     color: #e1e1e1;
     font-family: "bebasneue";
     font-size: 27px;
     text-align: center;
-    margin-bottom: 44px;
-    margin-left: 25px;
 }
 .products-item {
     width: 29%;
-    margin-right: 43px;
-    margin-top: 44px;
     border: 1px solid #e1e1e1;
-    border-bottom-color: #3cc395;
     position: relative;
 }
 .products-item button {
@@ -280,29 +306,35 @@ nav {
     content: '';
     width: 100%;
     display: block;
-    height: 6px;
-    background-color: green;
+    height: 5px;
+    background-color: #3cc395;
     position: absolute;
-    bottom: -5px;
+    bottom: -1px;
+    left: 0px;
+}
+.products-item button.flat-button:hover {
+    background-color: rgba(60, 195, 149, 0.37);
 }
 
 /* ======================================
    footer
 =========================================*/
 
-.box-footer{
+.footer-links{
     padding-bottom: 40px;
     padding-top: 30px;
 }
-.box-footer h3 {
+.footer-links h3 {
     color: #fff;
     font-size: 27px;
-    padding-left: 12px;
+    padding-left: 45px;
 }
-.box-footer p {
+.footer-links p {
     color: #fff;
     font-size: 15px;
-    padding-left: 15px;
+    padding-left: 45px;
+    line-height: 18px;
+
 }
 .bg-footer {
     background-color: #3cc3b5;
@@ -311,6 +343,7 @@ nav {
     color: #fff;
     font-size: 15px;
     padding: 10px 20px;
+    margin: 0;
 }
 .bg-Copyright {
     background-color: #2da89b;
