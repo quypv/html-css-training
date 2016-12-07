@@ -6,6 +6,9 @@
     .top-bar .top-cart {
         margin-top: -35px;
     }
+    .top-bar .top-search {
+        width: 434px;
+    }
     /* Menu */
     .slicknav_menu {
         display: none;
@@ -18,5 +21,16 @@
         margin-right: 40px;
         margin-top: 44px;
     }
+    /* featured */
+
+    .products-item {
+         width: 29%;
+    }
+    /* Footer */
+
+    .footer-links{
+        padding-bottom: 40px;
+        padding-top: 30px;
+}
 }
 

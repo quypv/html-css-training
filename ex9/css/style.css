@@ -119,7 +119,6 @@ a {
 .top-bar .top-search {
     display: block;
     margin: 0 auto;
-    width: 434px;
 }
 .top-bar .logo {
     float: left;
@@ -268,7 +267,6 @@ nav {
     text-align: center;
 }
 .products-item {
-    width: 29%;
     border: 1px solid #e1e1e1;
     position: relative;
 }
@@ -320,10 +318,7 @@ nav {
    footer
 =========================================*/
 
-.footer-links{
-    padding-bottom: 40px;
-    padding-top: 30px;
-}
+
 .footer-links h3 {
     color: #fff;
     font-size: 27px;

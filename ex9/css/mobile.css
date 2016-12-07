@@ -16,6 +16,10 @@
     .home-slider button {
         width: 100%;
     }
+    .top-bar .top-search {
+    display: block;
+    margin: 0 auto;
+    }
     /* Menur */
     .slicknav_menu {
         display: block;
@@ -27,15 +31,31 @@
     .menu {
         display: none;
     }
+      .slicknav_menu .slicknav_menutxt {
+        text-shadow: none;
+    }
+
+    /* Carousel */
+
+    .carousel {
+        margin: 0 110px;
+    }
+
     /* FEATURED PRODUCTS */
-    .products-item {
-        margin: 20px -37px 20px 113px;
+
+    .featured-gellary > div {
+        padding: 10px;
     }
-    .featured-gellary {
-        margin: 0;
+    .products-item button {
+        padding: 5px 20px;
     }
+
     /* Footer */
     .footer-links {
-        padding-left: 70px;
+       padding-bottom: 5px;
+       padding-top: 5px; 
+    }
+    .foot {
+        padding: 0;
     }
 }
