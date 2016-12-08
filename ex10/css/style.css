@@ -1,0 +1,54 @@
+/* ======================================
+    Fonts
+=========================================*/
+@font-face {
+    font-family: "arial";
+    src: url("../font/arial.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "helvetica";
+    src: url("../font/helveticaneuebold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "helvetica";
+    src: url("../font/helveticaneuemedium.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "helvetica";
+    src: url("../font/helveticaneuelight.ttf");
+    font-weight: 300;
+}
+/* ======================================
+    Common
+=========================================*/
+.white { color: #fff; }
+.blue { color:#5790dc; } 
+.gray { color: #808080; }
+.bg {
+    background-color: #fff;
+}
+
+/* ======================================
+    Layout
+=========================================*/
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    font-family: "arial";
+    font-size: 12px; 
+}
+h1
+h2
+h3
+h4
+h5 {
+    font-family: "helvetica";
+}
+h2 { font-size: 36px}
+h3 { font-size: 22px}
+/* ======================================
+    Header
+=========================================*/
