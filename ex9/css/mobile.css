@@ -34,6 +34,10 @@
       .slicknav_menu .slicknav_menutxt {
         text-shadow: none;
     }
+    .slicknav_nav a:hover {
+        background: #fff;
+        color: #41c4b5;
+    }
 
     /* Carousel */
 
