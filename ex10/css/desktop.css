@@ -4,3 +4,24 @@
         float: right;
     }
 }
+
+@media (min-width: 992px){
+    /* Hero */
+    .block-signup .btn-3d {
+        margin: 0 auto; 
+    }
+
+    .text-checkout {
+        float: right;
+        margin-top: -50px;
+        right: 50%;
+        margin-right: -400px;
+    }
+    .text-wait {
+        margin-top: -53px;
+        margin-left: -358px;
+        float: left;
+        left: 50%;
+    }
+} 
+    

@@ -2,5 +2,24 @@
     /* Header*/
     .top-call {
         margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Hero */
+    .block-signup {
+        position: relative;
+        padding-bottom: 150px;
+    }
+    .block-signup .btn-3d {
+        margin: 0 auto; 
+    }
+    .block-signup .btn-3d:after {
+        display: none;
+    }
+    .text-checkout {
+        position: absolute;
+        left: 50%;
+        margin-left: -104px;
+        margin-top: 25px;
     }
 }
