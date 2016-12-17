@@ -22,4 +22,7 @@
         margin-left: -104px;
         margin-top: 25px;
     }
+    .box-see:after {
+        top: 188px;
+    }
 }
