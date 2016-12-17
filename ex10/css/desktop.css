@@ -3,6 +3,9 @@
     .top-call {
         float: right;
     }
+    .box-see:after {
+        top: 154px;
+    }
 }
 
 @media (min-width: 992px){
@@ -23,5 +26,6 @@
         float: left;
         left: 50%;
     }
+    
 } 
     
